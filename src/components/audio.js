@@ -5,7 +5,7 @@ class Audio extends React.Component {
   state={count:0,audiotext:'Play Audio'};
   playAudio=()=> {
     const audioEl = document.getElementsByClassName("audio-element")[0]
-    if(this.state.count%2==0){
+    if(this.state.count%2===0){
       audioEl.play();
       this.setState({audiotext:'Pause Audio'});
     }
