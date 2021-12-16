@@ -1,1 +1,8 @@
-
+*{
+  margin: 0;
+}
+body{
+  background: url('./components/images/background.jpg') no-repeat;
+  background-size: 100vw 100vh;
+  height: 100vh;
+}

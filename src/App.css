@@ -1,0 +1,12 @@
+.AudioBtn{
+  width: 8vw;
+  height: 5vh;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-left: 46vw;
+  margin-top: 2vh;
+}
+.AudioBtn:hover{
+  color: white;
+  background-color:rgb(204, 204, 204);
+}
