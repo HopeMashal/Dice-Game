@@ -137,9 +137,9 @@ class App extends React.Component {
           winner={this.state.SplayerWinner}
         />
         <div className="btn-audio"><Audio/></div>
-        <button className="btn-new" onClick={this.btnNew}>{/* <i className="ion-ios-plus-outline"></i> */}<ion-icon name="add-circle-outline"></ion-icon>New game</button>
-        <button className="btn-roll" onClick={this.btnRoll}>{/* <i className="ion-ios-loop"></i> */}<ion-icon name="sync-outline"></ion-icon>Roll dice</button>
-        <button className="btn-hold" onClick={this.btnHold}>{/* <i className="ion-ios-download-outline"></i> */}<ion-icon name="download-outline"></ion-icon>Hold</button>
+        <button className="btn-new" onClick={this.btnNew}><ion-icon name="add-circle-outline"></ion-icon>New game</button>
+        <button className="btn-roll" onClick={this.btnRoll}><ion-icon name="sync-outline"></ion-icon>Roll dice</button>
+        <button className="btn-hold" onClick={this.btnHold}><ion-icon name="download-outline"></ion-icon>Hold</button>
         <input type="text" id="winningScore" placeholder="Final score" value={this.state.winningScore} onChange={e=>{this.setState({winningScore:e.target.value})}}/>
         <img style={{display:this.state.FdiceDisplay}} src={require(`${this.state.Fdicesrc}`).default} alt="Dice1" className="dice" id="dice1"/>
         <img style={{display:this.state.SdiceDisplay}} src={require(`${this.state.Sdicesrc}`).default} alt="Dice2" className="dice" id="dice2"/> 

@@ -20,7 +20,7 @@ class Audio extends React.Component {
     return (
       <div>
         <button onClick={this.playAudio}>
-          <span>{/* <i className="ion-ios-play-outline"></i> */}<ion-icon name="play-circle-outline"></ion-icon>{this.state.audiotext}</span>
+          <span><ion-icon name="play-circle-outline"></ion-icon>{this.state.audiotext}</span>
         </button>
         <audio className="audio-element">
           <source src={Song}></source>
