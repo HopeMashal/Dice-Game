@@ -19,8 +19,8 @@ class Audio extends React.Component {
   render() {
     return (
       <div>
-        <button className='AudioBtn' onClick={this.playAudio}>
-          <span>{this.state.audiotext}</span>
+        <button onClick={this.playAudio}>
+          <span><i className="ion-ios-play-outline"></i>{this.state.audiotext}</span>
         </button>
         <audio className="audio-element">
           <source src={Song}></source>
